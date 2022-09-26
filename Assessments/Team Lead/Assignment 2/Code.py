@@ -4,6 +4,7 @@ from time import sleep
 threshold=35
 
 print('Checking Temperature And Humidity')
+
 while True:
     temperature=randrange(10,50,1)
     humidity=randrange(10,90,1)
